@@ -7,7 +7,7 @@ import {AuthLayout, DashboardLayout, PageLayout} from "../app/layouts";
 function MyApp({Component, pageProps, router}) {
     Progress();
 
-    const authPages : string[] = ["/login", "/register", "/forgot-password", "/reset-password", "/verify-otp"];
+    const authPages : string[] = ["/login", "/register", "/forgot-password", "/reset-password"];
 
     return (
         <AuthProvider>

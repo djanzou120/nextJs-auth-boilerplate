@@ -1,22 +1,22 @@
 export interface RegisterForm {
-  firstname: string;
-  lastname: string;
-  email: string;
-  password: string;
-  confirm_password: string;
-  roleId: number;
+    firstname: string;
+    lastname: string;
+    email: string;
+    password: string;
+    confirm_password: string;
+    roleId: number;
 }
 
 export interface LoginForm {
-  email: string;
-  password_min: string;
+    email: string;
+    password_min: string;
 }
 
 export interface ForgotPasswordForm {
-  email: string;
+    email: string;
 }
 
 export interface ResetPasswordForm {
-  password: string;
-  confirm_password: string;
+    password: string;
+    confirm_password: string;
 }

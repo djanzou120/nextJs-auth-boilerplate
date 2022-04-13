@@ -8,9 +8,9 @@ interface AuthContextInterface {
     user: any;
     login: (input: any) => Promise<void>;
     signup: (input: any) => Promise<void>;
-    forgotPassword : (input : any) => Promise<void>;
-    resetPassword : (input : any) => Promise<void>;
-    verifyOTP : (input : any) => Promise<void>;
+    forgotPassword: (input: any) => Promise<void>;
+    resetPassword: (input: any) => Promise<void>;
+    verifyOTP: (input: any) => Promise<void>;
     logout: () => Promise<void>;
     checkSession: () => Promise<void>;
     isLoading: boolean;
@@ -87,7 +87,7 @@ export const AuthProvider = ({children}) => {
     const forgotPassword = async () => {
         try {
 
-        }catch (error) {
+        } catch (error) {
             setError(error.message);
             setIsLoading(false);
         }
@@ -96,7 +96,7 @@ export const AuthProvider = ({children}) => {
     const resetPassword = async () => {
         try {
 
-        }catch (error) {
+        } catch (error) {
             setError(error.message);
             setIsLoading(false);
         }
@@ -105,7 +105,7 @@ export const AuthProvider = ({children}) => {
     const verifyOTP = async () => {
         try {
 
-        }catch (error) {
+        } catch (error) {
             setError(error.message);
             setIsLoading(false);
         }

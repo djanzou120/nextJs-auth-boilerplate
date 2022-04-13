@@ -1,10 +1,10 @@
-import { Header } from "../components";
+import {Header} from "../components";
 
-export const PageLayout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <div className="px-10 py-5">{children}</div>
-    </>
-  );
+export const PageLayout = ({children}) => {
+    return (
+        <>
+            <Header/>
+            <div className="px-10 py-5">{children}</div>
+        </>
+    );
 };
